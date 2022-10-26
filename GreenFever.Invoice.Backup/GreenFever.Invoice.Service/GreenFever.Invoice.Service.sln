@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{07AEF839-7608-47E9-987E-34C798DEBD02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFever.Invoice.App", "App\GreenFever.Invoice.App\GreenFever.Invoice.App.csproj", "{A3946559-8C98-4594-923A-66E7CF1E36BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A646C95D-54A2-4D46-9E0B-A9AAE9D99A5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFever.Invoice.Dto", "Source\GreenFever.Invoice.Dto\GreenFever.Invoice.Dto.csproj", "{881DA289-5DD7-4269-8F83-6EE7F3F96206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFever.Invoice.BusinessLogic", "Source\GreenFever.Invoice.BusinessLogic\GreenFever.Invoice.BusinessLogic.csproj", "{C5A181B4-0DDC-4F8E-AFD1-5801A3547A97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFever.Invoice.Dal", "Source\GreenFever.Invoice.Dal\GreenFever.Invoice.Dal.csproj", "{A4828EB1-6147-4015-99E9-DCC70BF9238B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5D9F9C80-4D62-46C1-A95E-733BD58770BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFever.Invoice.UnitTests", "Tests\GreenFever.Invoice.UnitTests\GreenFever.Invoice.UnitTests.csproj", "{27CE31A7-051F-4C04-97C7-BEDD100FB277}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFever.Invoice.IntegrationTests", "Tests\GreenFever.Invoice.IntegrationTests\GreenFever.Invoice.IntegrationTests.csproj", "{7C019937-9C82-41D2-925C-0D1DEEB116B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E405498-ED65-482B-827E-9CC2F7C08398}"
+	ProjectSection(SolutionItems) = preProject
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFever.Invoice.Utils", "Source\GreenFever.Invoice.Utils\GreenFever.Invoice.Utils.csproj", "{81FACF09-9C4D-4748-A824-AF5BC1D274FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3946559-8C98-4594-923A-66E7CF1E36BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3946559-8C98-4594-923A-66E7CF1E36BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3946559-8C98-4594-923A-66E7CF1E36BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3946559-8C98-4594-923A-66E7CF1E36BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881DA289-5DD7-4269-8F83-6EE7F3F96206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881DA289-5DD7-4269-8F83-6EE7F3F96206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881DA289-5DD7-4269-8F83-6EE7F3F96206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881DA289-5DD7-4269-8F83-6EE7F3F96206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A181B4-0DDC-4F8E-AFD1-5801A3547A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A181B4-0DDC-4F8E-AFD1-5801A3547A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A181B4-0DDC-4F8E-AFD1-5801A3547A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A181B4-0DDC-4F8E-AFD1-5801A3547A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4828EB1-6147-4015-99E9-DCC70BF9238B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4828EB1-6147-4015-99E9-DCC70BF9238B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4828EB1-6147-4015-99E9-DCC70BF9238B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4828EB1-6147-4015-99E9-DCC70BF9238B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CE31A7-051F-4C04-97C7-BEDD100FB277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CE31A7-051F-4C04-97C7-BEDD100FB277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CE31A7-051F-4C04-97C7-BEDD100FB277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CE31A7-051F-4C04-97C7-BEDD100FB277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C019937-9C82-41D2-925C-0D1DEEB116B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C019937-9C82-41D2-925C-0D1DEEB116B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C019937-9C82-41D2-925C-0D1DEEB116B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C019937-9C82-41D2-925C-0D1DEEB116B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FACF09-9C4D-4748-A824-AF5BC1D274FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FACF09-9C4D-4748-A824-AF5BC1D274FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FACF09-9C4D-4748-A824-AF5BC1D274FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FACF09-9C4D-4748-A824-AF5BC1D274FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3946559-8C98-4594-923A-66E7CF1E36BE} = {07AEF839-7608-47E9-987E-34C798DEBD02}
+		{881DA289-5DD7-4269-8F83-6EE7F3F96206} = {A646C95D-54A2-4D46-9E0B-A9AAE9D99A5A}
+		{C5A181B4-0DDC-4F8E-AFD1-5801A3547A97} = {A646C95D-54A2-4D46-9E0B-A9AAE9D99A5A}
+		{A4828EB1-6147-4015-99E9-DCC70BF9238B} = {A646C95D-54A2-4D46-9E0B-A9AAE9D99A5A}
+		{27CE31A7-051F-4C04-97C7-BEDD100FB277} = {5D9F9C80-4D62-46C1-A95E-733BD58770BD}
+		{7C019937-9C82-41D2-925C-0D1DEEB116B3} = {5D9F9C80-4D62-46C1-A95E-733BD58770BD}
+		{81FACF09-9C4D-4748-A824-AF5BC1D274FB} = {A646C95D-54A2-4D46-9E0B-A9AAE9D99A5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4E4C481-1FC8-47EC-99AC-3D25BEB13FEA}
+	EndGlobalSection
+EndGlobal
