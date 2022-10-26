@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Foncia.PointOfSaleCodeKata.DAL\Foncia.PointOfSaleCodeKata.DAL.csproj" />
+    <ProjectReference Include="..\Foncia.PointOfSaleCodeKata.Dto\Foncia.PointOfSaleCodeKata.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
